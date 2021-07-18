@@ -21,7 +21,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Streaming(name='DereK SELFBOT OP', url='http://www.twitch.tv/RisinPlayZ'))
+    await client.change_presence(activity=discord.Streaming(name='DereK SELFBOT OP', url='https://youtube.com/channel/UCX0y47HP2rbqPvBjVSAe2Sw'))
     print('Im Ready\nDereKplayZ OP')
 
 
